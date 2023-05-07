@@ -8,3 +8,13 @@
 总平均成绩为85.67
 最高分学生为3,Liufei,98.00,96.00,95.00,96.33*/
 
+#include<stdio.h>
+
+struct student
+{
+    int id;
+    char name[20];
+    int score[3];
+
+};
+
